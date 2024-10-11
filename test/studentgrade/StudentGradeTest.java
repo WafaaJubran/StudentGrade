@@ -54,7 +54,7 @@ public class StudentGradeTest {
     
     @Test
     public void testGetGrade75() {
-        System.out.println("getGrade 85");
+        System.out.println("getGrade 75");
         int mark = 75;
         String expResult = "F";
         String result = StudentGrade.getGrade(mark);
